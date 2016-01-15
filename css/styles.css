@@ -474,6 +474,7 @@ body {
 	-webkit-box-align: top;
 	-webkit-align-items: top;
 	    -ms-flex-align: top;
+	            -ms-grid-row-align: top;
 	        align-items: top;
 	width: 1145px;
 	margin: 0 auto;
