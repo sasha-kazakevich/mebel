@@ -490,6 +490,7 @@ body {
 }
 .logo, .logo img {
 	height: 100%;
+	padding-bottom: 5px;
 }
 .addres {
 	text-align: right;
@@ -540,7 +541,7 @@ body {
 .main {
 	width: 1145px;
 	margin: 0 auto;
-	background: #e8e8e8;
+	background: #fff;
 }
 
 
@@ -685,9 +686,8 @@ body {
 }
 .catalog .nav .block > div {
 	padding: 0 4.32vw;
-
 	width: 1145px;
-	background: #e8e8e8;
+	background: #fff;
 	display: none;
 }
 #kitchen:checked ~ .block > div:nth-of-type(1), #furniture:checked ~ .block > div:nth-of-type(2), #cupboard:checked ~ .block > div:nth-of-type(3), #children:checked ~ .block > div:nth-of-type(4), #module:checked ~ .block > div:nth-of-type(5), #glass:checked ~ .block > div:nth-of-type(6), #mattress:checked ~ .block > div:nth-of-type(7) {
