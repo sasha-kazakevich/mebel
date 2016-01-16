@@ -9,7 +9,7 @@ const found = _ =>
       .reduce((accD,curDir) => {
         accD[path.basename(curDir)] =
           find
-            .fileSync(/\.jpg$/, './'+curDir)
+            .fileSync(/\.(jpg)|(png)$/, './'+curDir)
             .map(img => {
               img = img.split(path.sep)
               img.shift()

@@ -13,6 +13,7 @@ mixin rowGallery(items, title)
 					
 mixin catalogPage(header, items, title, noAdd)
 	h1 #{header}
+
 	.image
 		+collumnGallery(items, title)
 	if(!noAdd)

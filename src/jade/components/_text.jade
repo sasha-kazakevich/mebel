@@ -1,2 +1,11 @@
+- var texts = ["Ultra High Glass", "Работаем с гигантами мебельной фурнитуры Hettich, GTV", "ДСП", "Пластики Arpa hpl"]
+- var _i = 0
 .text
-  h1 Образцы материалов
+    h1 Образцы материалов
+    each exampleurls in material_examples
+        each exampleurl in exampleurls
+            .materialExample
+                h1 #{texts[_i]}
+                a(href="#") Посмотреть каталог
+                img(src="#{exampleurl}", style="width: 100%;")
+            - _i++
