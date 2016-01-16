@@ -37,7 +37,7 @@
 		})
 		all[+data].style.display = "block";
 		lis[+data].classList.add("active");
-		$.one('#footer').style.display = data === 0 ? 'none' : ''
+		$.one('#footer').style.display = data == 0 ? 'none' : ''
 	});
 	// Arrow stuff
 	function scroller(){
