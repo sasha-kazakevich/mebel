@@ -49,7 +49,8 @@
 #children:checked ~ .block > div:nth-of-type(4),
 #module:checked ~ .block > div:nth-of-type(5),
 #glass:checked ~ .block > div:nth-of-type(6),
-#mattress:checked ~ .block > div:nth-of-type(7) {
+#matrac:checked ~ .block > div:nth-of-type(7),
+#chair:checked ~ .block > div:nth-of-type(8) {
 	display: block;
 }
 .catalog .nav .block > div h1 {
@@ -161,4 +162,36 @@
 
 .materialExample img {
     width: 100%;
+}
+
+.image_row {
+    @extend %fl-row-arnd;
+    margin-bottom: 10px;
+    /*width: 20%;*/
+    height: 150px;
+}
+
+.image_row a, .image_row img {
+    height: 100%;
+}
+
+.image p, .text p {
+    font-family: Roboto;
+    color: #330033;
+    font-size: 14px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;
+    text-indent: 10px;
+}
+
+.chair .image .image_row {
+    height: 300px;
+}
+
+.chair .materialExample {
+    height: 150px;
+}
+
+.chair .materialExample a {
+    top: 10px;
 }
