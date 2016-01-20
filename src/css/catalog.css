@@ -195,3 +195,13 @@
 .chair .materialExample a {
     top: 10px;
 }
+
+.chair .text p {
+	font-family: Verdana;
+	color: #330033;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 26px;
+	text-align: justify;
+	text-indent: 10px;
+}
