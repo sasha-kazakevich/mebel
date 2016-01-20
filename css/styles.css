@@ -761,6 +761,10 @@ body {
 .photoprint a {
 	width: 18%;
 }
+
+.cupboards .text p {
+    text-align: center !important;
+}
 .peskostrui, .photoprint {
 	margin-bottom: 10px;
 }
