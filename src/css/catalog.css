@@ -111,6 +111,10 @@
 .photoprint a {
 	width: 18%;
 }
+
+.cupboards .text p {
+    text-align: center !important;
+}
 .peskostrui, .photoprint {
 	@extend %fl-row-btwn;
 	margin-bottom: 10px;
