@@ -621,6 +621,7 @@ body {
 	outline: none;
 	background-color: transparent;
 	border: 1px  solid #aeaeae;
+	resize: none;
 }
 .main .contacts .form-row input:focus, .main .contacts .form-row textarea:focus {
 	border: 1px solid #9abffe;
