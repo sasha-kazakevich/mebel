@@ -832,7 +832,7 @@ body {
     font-family: Verdana;
     color: #330033;
     font-size: 14px; /* Приближение из-за подстановки шрифтов */
-    font-weight: 700;
+    font-weight: 400;
     text-align: left;
     text-indent: 10px;
 }
