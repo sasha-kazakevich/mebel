@@ -1,15 +1,18 @@
 (function(window, $) {
 	// Header stuff
-	// function changeBack (){
-	// 	var i = 1;
-	// 	var img = ["slider1.png","slider2.png","slider3.png","slider4.png"];
-	// 	return function(){
-	// 		if (i === img.length) i = 0;
-	// 		$.one('#header').style.backgroundImage = 'url("./img/'+ img[i] + '")';
-	// 		i++;
-	// 	}
-	// }
-	// setInterval(changeBack(),2000);
+	function changeBack (){
+		var i = 1;
+		var img = ["slider1.png","slider2.png","slider3.png","slider4.png"];
+		return function(){
+			if (i === img.length) i = 0;
+			$.one('#header').style.backgroundImage = 'url("./img/'+ img[i] + '")';
+			i++;
+		}
+	}
+	function int(){
+    setInterval(changeBack(),2000)
+  };
+  setTimeout(int,8000)
 	// Map stuff
 	function init(){
 		var myMap,myPlacemark;
