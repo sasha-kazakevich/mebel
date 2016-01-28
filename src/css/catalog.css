@@ -90,6 +90,7 @@
 	padding-top: 50px;
 	text-align: center;
 }
+
 .catalog .nav .block > div .findings{
 	margin: 50px 0;
 	padding: 20px 0;
@@ -187,7 +188,7 @@
     color: #330033;
     font-size: 14px; /* Приближение из-за подстановки шрифтов */
     font-weight: 400;
-    text-align: left;
+    text-align: justify;
     text-indent: 10px;
 }
 
