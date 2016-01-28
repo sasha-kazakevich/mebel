@@ -2,17 +2,15 @@
 	// Header stuff
 	function changeBack (){
 		var i = 1;
-		var img = ["slider1.png","slider2.png","slider3.png","slider4.png"];
+		var img = ["slider1.jpg","slider2.jpg","slider3.jpg","slider4.jpg"];
 		return function(){
 			if (i === img.length) i = 0;
 			$.one('#header').style.backgroundImage = 'url("./img/'+ img[i] + '")';
 			i++;
 		}
 	}
-	function int(){
-    setInterval(changeBack(),2000)
-  };
-  setTimeout(int,8000)
+
+  setInterval(changeBack(),2000)
 	// Map stuff
 	function init(){
 		var myMap,myPlacemark;
