@@ -532,7 +532,7 @@ body {
 	margin: 0 auto;
 }
 .menu ul {
-	width: 600px;
+	width: 750px;
 	margin: 0 auto;
 }
 .menu ul li {
@@ -703,7 +703,7 @@ body {
 	background: #fff;
 	display: none;
 }
-#kitchen:checked ~ .block > div:nth-of-type(1), #furniture:checked ~ .block > div:nth-of-type(2), #cupboard:checked ~ .block > div:nth-of-type(3), #children:checked ~ .block > div:nth-of-type(4), #module:checked ~ .block > div:nth-of-type(5), #glass:checked ~ .block > div:nth-of-type(6), #matrac:checked ~ .block > div:nth-of-type(7), #chair:checked ~ .block > div:nth-of-type(8) {
+#kitchen:checked ~ .block > div:nth-of-type(1), #furniture:checked ~ .block > div:nth-of-type(2), #cupboard:checked ~ .block > div:nth-of-type(3), #children:checked ~ .block > div:nth-of-type(4), #glass:checked ~ .block > div:nth-of-type(5), #matrac:checked ~ .block > div:nth-of-type(6), #chair:checked ~ .block > div:nth-of-type(7) {
 	display: block;
 }
 .catalog .nav .block > div h1 {

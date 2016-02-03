@@ -47,10 +47,9 @@
 #furniture:checked ~ .block > div:nth-of-type(2),
 #cupboard:checked ~ .block > div:nth-of-type(3),
 #children:checked ~ .block > div:nth-of-type(4),
-#module:checked ~ .block > div:nth-of-type(5),
-#glass:checked ~ .block > div:nth-of-type(6),
-#matrac:checked ~ .block > div:nth-of-type(7),
-#chair:checked ~ .block > div:nth-of-type(8) {
+#glass:checked ~ .block > div:nth-of-type(5),
+#matrac:checked ~ .block > div:nth-of-type(6),
+#chair:checked ~ .block > div:nth-of-type(7) {
 	display: block;
 }
 .catalog .nav .block > div h1 {

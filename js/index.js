@@ -15,11 +15,11 @@
 	function init(){
 		var myMap,myPlacemark;
 		myMap = new ymaps.Map("map", {
-			center: [54.492567, 26.917414],
+			center: [54.492558, 26.917828],
 			zoom: 17
 		});
 		myMap.behaviors.disable('scrollZoom');
-		myPlacemark = new ymaps.Placemark([54.492567, 26.917414], {
+		myPlacemark = new ymaps.Placemark([54.492558, 26.917828], {
 			hintContent: 'yuldenmebel',
 			balloonContent: 'yuldenmebel'
 		});
