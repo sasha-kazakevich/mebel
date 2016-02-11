@@ -568,6 +568,11 @@ body {
 	text-align: center;
 	font-size: 18px;
 }
+
+.main .about p {
+    text-indent: 10px;
+}
+
 .main .about p:last-child {
 	padding-bottom: 50px;
 }
