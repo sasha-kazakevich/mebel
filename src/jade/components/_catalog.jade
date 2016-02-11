@@ -9,8 +9,6 @@ div.catalog.all
         label(for="cupboard")| Шкафы купе
         input#children(type="radio",name="block")
         label(for="children")| Мебель для детских
-        input#module(type="radio",name="block")
-        label(for="module")| Модульные системы
         input#glass(type="radio",name="block")
         label(for="glass")| Обработка стекла
         input#matrac(type="radio",name="block")
@@ -44,8 +42,6 @@ div.catalog.all
                 include _findings
             div.childrens
                 +catalogPage('Производство детских под заказ', childrens, 'childrens')
-            div.modul_systems
-                p modul_systems
             div.glass
                 include _services
             div.matrac

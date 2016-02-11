@@ -2,23 +2,24 @@
 	// Header stuff
 	function changeBack (){
 		var i = 1;
-		var img = ["slider1.png","slider2.png","slider3.png","slider4.png"];
+		var img = ["slider1.jpg","slider2.jpg","slider3.jpg","slider4.jpg"];
 		return function(){
 			if (i === img.length) i = 0;
 			$.one('#header').style.backgroundImage = 'url("./img/'+ img[i] + '")';
 			i++;
 		}
 	}
-	setInterval(changeBack(),2000);
+
+  setInterval(changeBack(),2000)
 	// Map stuff
 	function init(){
 		var myMap,myPlacemark;
 		myMap = new ymaps.Map("map", {
-			center: [54.492572, 26.917812],
+			center: [54.492558, 26.917828],
 			zoom: 17
 		});
 		myMap.behaviors.disable('scrollZoom');
-		myPlacemark = new ymaps.Placemark([54.492572, 26.917812], {
+		myPlacemark = new ymaps.Placemark([54.492558, 26.917828], {
 			hintContent: 'yuldenmebel',
 			balloonContent: 'yuldenmebel'
 		});
@@ -37,7 +38,7 @@
 		})
 		all[+data].style.display = "block";
 		lis[+data].classList.add("active");
-		$.one('#footer').style.display = data == 0 ? 'none' : ''
+		$.one('#footer').style.display = data === 0 ? 'none' : ''
 	});
 	// Arrow stuff
 	function scroller(){
